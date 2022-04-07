@@ -1,0 +1,125 @@
+{
+    "musicList" : [
+        {
+            "name" : "Bad Habbits",
+            "artist" : "Ed Sheeran",
+            "image" : "Bad_Habbits_Ed_Sheeran",
+            "rank" : "001"
+        },
+        {
+            "name" : "Counting Stars (Feat. Beenzino)",
+            "artist" : "BE'O(비오)",
+            "image" : "Counting_Stars_BEO",
+            "rank" : "002"
+        },
+        {
+            "name" : "Dreams Come True",
+            "artist" : "aespa",
+            "image" : "Dreams_Come_True_aespa",
+            "rank" : "003"
+        },
+        {
+            "name" : "ELEVEN",
+            "artist" : "IVE(아이브)",
+            "image" : "ELEVEN_IVE",
+            "rank" : "004"
+        },
+        {
+            "name" : "Next Level",
+            "artist" : "aespa",
+            "image" : "Next Level_aespa",
+            "rank" : "005"
+        },
+        {
+            "name" : "Savage",
+            "artist" : "aespa",
+            "image" : "Savage_aespa",
+            "rank" : "006"
+        },
+        {
+            "name" : "STAY",
+            "artist" : "The Kid LAROI, Justin Bieber",
+            "image" : "STAY",
+            "rank" : "007"
+        },
+        {
+            "name" : "Step Back",
+            "artist" : "GOT the bear",
+            "image" : "Step_Back_GOT_the_bear",
+            "rank" : "008"
+        },
+        {
+            "name" : "strawberry moon",
+            "artist" : "아이유",
+            "image" : "strawberry_moon_IU",
+            "rank" : "009"
+        },
+        {
+            "name" : "겨울잠",
+            "artist" : "IU",
+            "image" : "winter_dream_IU",
+            "rank" : "010"
+        },
+        {
+            "name" : "낙하(with 아이유)",
+            "artist" : "AKMU(악뮤)",
+            "image" : "nak_ha_akmu",
+            "rank" : "011"
+        },
+        {
+            "name" : "눈이 오잖아",
+            "artist" : "이무진",
+            "image" : "The_Snow_falls",
+            "rank" : "012"
+        }
+        , {
+            "name" : "드라마",
+            "artist" : "아이유",
+            "image" : "drama",
+            "rank" : "013"
+        },
+        {
+            "name" : "리무진(Feat.MINO)(Prod.GRAY)",
+            "artist" : "BE'O(비오)",
+            "image" : "limousine",
+            "rank" : "014"
+        },
+        {
+            "name" : "만남을 쉽고 이별은 어려워(Feat.Leellamarz)(Prod.TOIL)",
+            "artist" : "베이식",
+            "image" : "mannam",
+            "rank" : "015"
+        },
+        {
+            "name" : "사랑은 늘 도망가",
+            "artist" : "임영웅",
+            "image" : "love_is_difficult",
+            "rank" : "016"
+        },
+        {
+            "name" : "서랍_10CM",
+            "artist" : "10CM",
+            "image" : "closet",
+            "rank" : "017"
+        },
+        {
+            "name" : "신호등",
+            "artist" : "이무진",
+            "image" : "light",
+            "rank" : "018"
+        },
+        {
+            "name" : "취중고백_김민석(멜로망스)",
+            "artist" : "김민석(멜로망스)",
+            "image" : "confession",
+            "rank" : "019"
+        },
+        {
+            "name" : "회전목마(Feat.Zion.T,원슈타인)(Prod.Slom)",
+            "artist" : "sokodomo",
+            "image" : "merry_go_round",
+            "rank" : "020"
+        }
+    ]
+
+}
