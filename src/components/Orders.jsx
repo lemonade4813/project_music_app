@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import useActions from "./hooks/useActions";
-import useOrders from "./hooks/useOrders";
-import usePrototypes from "./hooks/usePrototypes";
+import useActions from "../hooks/useActions";
+import useOrders from "../hooks/useOrders";
+import usePrototypes from "../hooks/usePrototypes";
 
 export default function Orders() {
   const orders = useOrders();
@@ -22,8 +22,8 @@ export default function Orders() {
     return (
       <aside>
         <div className="empty">
-          <div className="title">You don't have any orders</div>
-          <div className="subtitle">Click on a + to add an order</div>
+          <div className="title">장바구니에 담긴 상품이 없습니다.</div>
+          <div className="subtitle">버튼을 눌러 상품을 추가하세요.</div>
         </div>
       </aside>
     );
@@ -42,7 +42,7 @@ export default function Orders() {
             return (
               <div className="item" key={id}>
                 <div className="img">
-                  <video src={prototype.thumbnail} />
+                  <img style={{width:'40px'}}src={prototype.thumbnail} />
                 </div>
                 <div className="content">
                   <p className="title">

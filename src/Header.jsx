@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
-import CopyrightList from './CopyrightList';
-import CompanyInfo from './CompanyInfo';
-import Chart from './Chart';
-import Prototypes from './Prototypes';
+import CopyrightList from './components/CopyrightList';
+import CompanyInfo from './components/CompanyInfo';
+import Chart from './components/Chart';
+import Prototypes from './components/Prototypes';
 export default function Header() {
     return (
       <Router>

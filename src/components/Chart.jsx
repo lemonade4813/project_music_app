@@ -1,4 +1,4 @@
-import chartList from "./chartList.json"
+import chartList from "../chartList.json"
 
 
 export default function Chart(){
@@ -14,7 +14,7 @@ export default function Chart(){
             {chartList.musicList.map((list)=>(
                 <tr key={list.rank}>
                     <td>{list.rank}</td>
-                    <td><img src = {require(`./image/top20/${list.image}.jpg`)}/></td>
+                    <td><img src = {require(`../image/top20/${list.image}.jpg`)}/></td>
                     <td>{list.name}</td>
                     <td>{list.artist}</td>
                 </tr>
