@@ -42,7 +42,7 @@ export default function Orders() {
             return (
               <div className="item" key={id}>
                 <div className="img">
-                  <img style={{width:'40px'}}src={prototype.thumbnail} />
+                  <img style={{width:'40px'}} src={prototype.thumbnail} />
                 </div>
                 <div className="content">
                   <p className="title">

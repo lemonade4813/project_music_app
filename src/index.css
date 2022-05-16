@@ -93,6 +93,7 @@ header .homepage{
     height: 50px;
     font-family: 'Staatliches';
     font-size: 30px;
+    display: inline-block;
   }
 
 .gnb{
@@ -490,8 +491,17 @@ aside {
   font-size: 0.9rem;
 }
 
+.loginReg{
+   left: 900px;
+   display: inline-block;
+   position: relative;
+}
 
-
+.loginReg li{
+  float: left;
+  margin-right: 15px;
+  vertical-align: middle;
+  }
 
 /*
 code {

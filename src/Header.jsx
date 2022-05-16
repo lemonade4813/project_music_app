@@ -1,13 +1,27 @@
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 import CopyrightList from './components/CopyrightList';
 import CompanyInfo from './components/CompanyInfo';
 import Chart from './components/Chart';
 import Prototypes from './components/Prototypes';
 export default function Header() {
-    return (
+  const [modalOpen, setModalOpen] = useState(false);
+  
+  const openModal = () => {
+    setModalOpen(true);
+  };
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+  
+  return (
       <Router>
       <header>
         <h1 className ="homepage">MUSIC FOR YOU</h1>
+        <ul className ="loginReg">
+          <li onClick={openModal}>로그인</li>
+          <li>회원가입</li>
+        </ul>
         <nav>   
             <ul className="gnb">
               <li><Link to ="/chart">차트</Link></li>
