@@ -502,6 +502,38 @@ aside {
   margin-right: 15px;
   vertical-align: middle;
   }
+  
+  .genre{
+    font-size : 30px;
+    height: 150px;
+    width : 150px;
+  }
+
+  .genreImage{
+    width: 30px;
+    margin-right : 20px;
+  }
+
+  .genreTitle{
+    margin-bottom : 40px;
+  }
+
+  .genreSelect li{
+    
+    border : 1px solid #fff;
+    text-align: center;
+    float : left;
+    width : 150px;
+    height : 100px;
+    line-height: 100px;
+  }
+
+
+
+
+
+
+
 
 /*
 code {
